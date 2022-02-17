@@ -29,7 +29,7 @@ function createFeatures(earthquakeData, plateData) {
     });
 
     const plates = L.geoJSON(plateData, {
-        color: "orange"
+        color: "dodgerblue"
     });
 
     createMap(earthquakes, plates);
